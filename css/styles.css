@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import "@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption|PT+Sans+Narrow|PT+Sans:400,700&display=swap');";
+
+body {
+  /* background-image: url(../image/dc-online-media-mockup.jpg); */
+  background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+}
+h1{
+   font-size: 40px;
+   margin-top: 66px;
+   font-weight: bold;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+h2{
+    font-size: 34px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: bold;
+    margin-top: 43px;
+}
+
+h1 + p{
+  line-height: 32px;
+  margin-top: 10px;
+  font-size: 22px;
+  font-family: 'PT Sans Caption', sans-serif;
+  opacity: 0.5;
+}
+
+p{
+	width: 728px;
+  line-height: 32px;
+  margin-top: 10px;
+  font-size: 22px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#text {
+	line-height: 32px;
+  margin-top: 29px;
+  font-size: 22px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h3 {
+	font-size: 28px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+h4{
+	font-size: 22px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+ul {
+	list-style-type: disc;
+	line-height: 32px;
+  margin-top: 10px;
+  font-size: 23px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+li{
+	margin-top: 17px;
+}
+
+ol{
+	list-style-type: disc;
+	line-height: 30px;
+  margin-top: 10px;
+  font-size: 23px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body{
+  width: 700px;
+
+  margin: 0 auto;
+
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+
+}
