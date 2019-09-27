@@ -47,27 +47,31 @@ table {
 	border-spacing: 0;
 }
 
-@import "@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption|PT+Sans+Narrow|PT+Sans:400,700&display=swap');";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption|PT+Sans+Narrow|PT+Sans:400,700&display=swap');
 
 body {
-  /* background-image: url(../image/dc-online-media-mockup.jpg); */
-  background-size: 800px 20624px;
-  background-position: top center;
-  background-repeat: no-repeat;
+  width: 700px;
 
+  margin: 0 auto;
+
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
 }
-h1{
-   font-size: 40px;
-   margin-top: 66px;
-   font-weight: bold;
+
+h1 {
+	font-size: 40px;
+	margin-top: 66px;
+	font-weight: bold;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+h2 {
+  font-size: 34px;
   font-family: 'PT Sans Caption', sans-serif;
-}
-
-h2{
-    font-size: 34px;
-    font-family: 'PT Sans Caption', sans-serif;
-    font-weight: bold;
-    margin-top: 43px;
+  font-weight: bold;
+  margin-top: 43px;
 }
 
 h1 + p{
@@ -78,12 +82,12 @@ h1 + p{
   opacity: 0.5;
 }
 
-p{
+p {
 	width: 728px;
-  line-height: 32px;
-  margin-top: 10px;
-  font-size: 22px;
-  font-family: 'PT Sans', sans-serif;
+	line-height: 32px;
+	margin-top: 10px;
+	font-size: 22px;
+	font-family: 'PT Sans', sans-serif;
 }
 
 #text {
@@ -93,18 +97,16 @@ p{
   font-family: 'PT Sans', sans-serif;
 }
 
-h3 {
+h3,
+h4 {
 	font-size: 28px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-weight: bold;
 	margin-top: 30px;
 }
 
-h4{
+h4 {
 	font-size: 22px;
-	font-family: 'PT Sans Caption', sans-serif;
-	font-weight: bold;
-	margin-top: 30px;
 }
 
 ul {
@@ -115,7 +117,7 @@ ul {
   font-family: 'PT Sans', sans-serif;
 }
 
-li{
+li {
 	margin-top: 17px;
 }
 
@@ -125,16 +127,4 @@ ol{
   margin-top: 10px;
   font-size: 23px;
   font-family: 'PT Sans', sans-serif;
-}
-
-body{
-  width: 700px;
-
-  margin: 0 auto;
-
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
-
 }
